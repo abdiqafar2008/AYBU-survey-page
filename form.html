@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYBU Survey Form</title>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+ <div class="container">
+    <header class="Header">
+        <h1 id="title">
+            survey form for students
+        </h1>
+    <p id="description">
+        Thank you for taking time to help us to improve the platform
+    </p>
+    </header>
+       <form action="" id="survey from">
+           <!--Text section  -->
+
+           <!--end of text section -->
+           <div class="form-group">
+               <label for="name">Name</label>
+               <input type="text"name="name" id="name" class="formcontrol" placeholder="Enter your name" required>
+
+           </div>
+           <!--end of text section -->
+
+           <!--Type email section -->
+           <div class="form-group">
+            <label for="email">email</label>
+            <input type="email"name="email" id="email" class="formcontrol" placeholder="Enter your email" required>
+
+        </div>
+
+           <!--end of type of email section -->
+
+           <!--type number section -->
+           <div class="form-group">
+            <label for="phone">phone number</label>
+            <input type="number"name="phone" id="phone" class="formcontrol" placeholder="Enter your phone number" required>
+
+        </div>
+
+           <!--end of number section -->
+           
+           <!--student ID section -->
+           <div class="form-group">
+            <label for="student ID">student ID <span class="clue">(optional)</span></label>
+            <input type="text"name="student ID" id="--student ID class="formcontrol" placeholder="Enter your student ID" required>
+
+        </div>
+
+           <!--end of student ID section -->
+
+           <!--select selection -->
+           <div class="form-group">
+               <p id="quest">What is your year of study ?</p>
+               <select name="role" id="dropdown" class="formcontrol" required> <option value="" disabled selected>select current year</option>
+                <option value="first-year">first-year</option>
+                <option value="second-year">second-year</option>
+                <option value="third-year">third-year</option>
+                <option value="forth-year">forth-year</option>
+            </select>
+           </div>
+
+           <!--end of select selection -->
+
+           <!--radio button section -->
+           <dev class="form-group">
+               <p id="quest">what do you like most about the university</p>
+               <label for="">
+                   <input type="radio"
+                    name="source" 
+                    value="meeting new Friends"
+                    class="inputRadio"
+                    >meeting new Friends
+                   
+               </label>
+
+               <label for="">
+                <input type="radio"
+                 name="source" 
+                 value="lecturers"
+                 class="inputRadio"
+                 >lecturers
+                
+            </label>
+            <label for="">
+                <input type="radio"
+                 name="source" 
+                 value="enviroment"
+                 class="inputRadio"
+                 >enviroment
+                
+            </label>
+            <label for="">
+                <input type="radio"
+                 name="source" 
+                 value="students-clubs"
+                 class="inputRadio"
+                 >students-clubs
+                
+            </label>
+            <label for="">
+                <input type="radio"
+                 name="source" 
+                 value="other"
+                 class="inputRadio"
+                 >other
+                
+            </label>
+           </dev>
+
+           <!--end of radio button section -->
+
+           <!--checkbox section -->
+           <div class="form-group">
+               <p id="quest">what would you like to see improved</p>
+               <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="transportation">transportation
+               </label>
+               <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="canteen food">canteen food
+               </label>
+               <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="university facilities">university facilities
+               </label>
+               <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="managemnt">managemnt 
+               </label>
+               <label for="">
+                <input type="checkbox"
+                name="prefer"
+                class="checkbox"
+                value="other">other
+               </label>
+           </div>
+
+           <!--end of checkbox section-->
+           <!--textarea section -->
+           <div class="form-group">
+               <p id="quest">give us your feedback</p>
+               <textarea name="feedback"
+               id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter your feedback here..."></textarea>
+           </div>
+
+           <!--end of textarea -->
+           <!--sumbit button-->
+           <div class="form-group">
+               <button type="submit" id="submit" class="btn">submit</button>
+           </div>
+
+
+
+       </form>
+
+    
+
+</body>
+</html>
